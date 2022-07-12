@@ -1,0 +1,86 @@
+*, *::before, ::after {
+    box-sizing: border-box;
+    outline: none;
+    list-style: none;
+    font-family: sans-serif;
+    border: none;
+    margin: 0%;
+    padding: 0%;
+}
+
+button {
+    cursor: pointer;
+}
+
+button:active {
+    opacity: 0.7;
+    transition: .4s;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.top-input-out-heseg {
+    width: 70%;
+    height: 80%;
+    flex-direction: column;
+    padding: 1.5em;
+    display: flex;
+    align-items: center;
+}
+
+.qwertt {
+    width: 80%;
+    height: 9vh;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 2em;
+    background: #000;
+}
+
+.qwertt input, button {
+    color: #FFF;
+    background: #000;
+}
+
+#input-text {
+    width: 80%;
+    height: 100%;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    padding: 1rem;
+    font-size: 1em;
+}
+
+.out-heseg {
+    height: 100%;
+    width: 80%;
+    margin-top: 1rem;
+    background: #FFF;
+    overflow-y: scroll;
+    padding: 1rem;
+}
+
+.text-out {
+    height: 9vh;
+    width: 100%;
+    background: #000;
+    border-radius: 1rem;
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.text {
+    width: 80%;
+    overflow-x: scroll;
+}
